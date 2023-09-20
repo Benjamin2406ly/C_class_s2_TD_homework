@@ -1,8 +1,8 @@
 [
 {
   "directory": "C:/vscode/C_class_s2_TD_homework/build",
-  "command": "C:\\Users\\53469\\mingw\\mingw64\\bin\\gcc.exe   -g -o CMakeFiles\\task5.dir\\main.c.obj -c C:\\vscode\\C_class_s2_TD_homework\\main.c",
-  "file": "C:/vscode/C_class_s2_TD_homework/main.c",
-  "output": "CMakeFiles/task5.dir/main.c.obj"
+  "command": "C:\\Users\\53469\\mingw\\mingw64\\bin\\gcc.exe -DDEBUG -DREAL_COOL_ENGINEER @CMakeFiles/task5.dir/includes_C.rsp  -pipe -std=c99 -g -std=gnu99 -o CMakeFiles\\task5.dir\\src\\main.c.obj -c C:\\vscode\\C_class_s2_TD_homework\\src\\main.c",
+  "file": "C:/vscode/C_class_s2_TD_homework/src/main.c",
+  "output": "CMakeFiles/task5.dir/src/main.c.obj"
 }
 ]

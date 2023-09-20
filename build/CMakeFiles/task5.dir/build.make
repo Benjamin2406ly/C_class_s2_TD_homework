@@ -68,28 +68,29 @@ include CMakeFiles/task5.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/task5.dir/flags.make
 
-CMakeFiles/task5.dir/main.c.obj: CMakeFiles/task5.dir/flags.make
-CMakeFiles/task5.dir/main.c.obj: C:/vscode/C_class_s2_TD_homework/main.c
-CMakeFiles/task5.dir/main.c.obj: CMakeFiles/task5.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\vscode\C_class_s2_TD_homework\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/task5.dir/main.c.obj"
-	C:\Users\53469\mingw\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/task5.dir/main.c.obj -MF CMakeFiles\task5.dir\main.c.obj.d -o CMakeFiles\task5.dir\main.c.obj -c C:\vscode\C_class_s2_TD_homework\main.c
+CMakeFiles/task5.dir/src/main.c.obj: CMakeFiles/task5.dir/flags.make
+CMakeFiles/task5.dir/src/main.c.obj: CMakeFiles/task5.dir/includes_C.rsp
+CMakeFiles/task5.dir/src/main.c.obj: C:/vscode/C_class_s2_TD_homework/src/main.c
+CMakeFiles/task5.dir/src/main.c.obj: CMakeFiles/task5.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\vscode\C_class_s2_TD_homework\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/task5.dir/src/main.c.obj"
+	C:\Users\53469\mingw\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/task5.dir/src/main.c.obj -MF CMakeFiles\task5.dir\src\main.c.obj.d -o CMakeFiles\task5.dir\src\main.c.obj -c C:\vscode\C_class_s2_TD_homework\src\main.c
 
-CMakeFiles/task5.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/task5.dir/main.c.i"
-	C:\Users\53469\mingw\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\vscode\C_class_s2_TD_homework\main.c > CMakeFiles\task5.dir\main.c.i
+CMakeFiles/task5.dir/src/main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/task5.dir/src/main.c.i"
+	C:\Users\53469\mingw\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\vscode\C_class_s2_TD_homework\src\main.c > CMakeFiles\task5.dir\src\main.c.i
 
-CMakeFiles/task5.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/task5.dir/main.c.s"
-	C:\Users\53469\mingw\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\vscode\C_class_s2_TD_homework\main.c -o CMakeFiles\task5.dir\main.c.s
+CMakeFiles/task5.dir/src/main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/task5.dir/src/main.c.s"
+	C:\Users\53469\mingw\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\vscode\C_class_s2_TD_homework\src\main.c -o CMakeFiles\task5.dir\src\main.c.s
 
 # Object files for target task5
 task5_OBJECTS = \
-"CMakeFiles/task5.dir/main.c.obj"
+"CMakeFiles/task5.dir/src/main.c.obj"
 
 # External object files for target task5
 task5_EXTERNAL_OBJECTS =
 
-task5.exe: CMakeFiles/task5.dir/main.c.obj
+task5.exe: CMakeFiles/task5.dir/src/main.c.obj
 task5.exe: CMakeFiles/task5.dir/build.make
 task5.exe: CMakeFiles/task5.dir/linkLibs.rsp
 task5.exe: CMakeFiles/task5.dir/objects1.rsp

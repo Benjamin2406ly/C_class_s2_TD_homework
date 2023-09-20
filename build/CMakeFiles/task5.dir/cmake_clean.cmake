@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/task5.dir/main.c.obj"
-  "CMakeFiles/task5.dir/main.c.obj.d"
+  "CMakeFiles/task5.dir/src/main.c.obj"
+  "CMakeFiles/task5.dir/src/main.c.obj.d"
   "libtask5.dll.a"
   "task5.exe"
   "task5.exe.manifest"
