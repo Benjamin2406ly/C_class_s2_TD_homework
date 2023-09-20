@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/vscode/C_class_s2_TD_homework/build",
+  "command": "C:\\Users\\53469\\mingw\\mingw64\\bin\\gcc.exe   -g -o CMakeFiles\\task5.dir\\main.c.obj -c C:\\vscode\\C_class_s2_TD_homework\\main.c",
+  "file": "C:/vscode/C_class_s2_TD_homework/main.c",
+  "output": "CMakeFiles/task5.dir/main.c.obj"
+}
+]
