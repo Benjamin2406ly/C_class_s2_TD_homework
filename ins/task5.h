@@ -3,7 +3,7 @@
 
 /*
 **链表结构体
-**|data|null|--|data|null|--|data|null|...
+**|data|null(next)|-->|data|null(next)|-->|data|null(next)|...
 */
 typedef struct Node {
     int data;
@@ -27,4 +27,4 @@ int josephus(int Count, int Coff);
 /*
 **创建循环链表
 */
-void circu_linked_list()
+void circu_linked_list(int Count)
