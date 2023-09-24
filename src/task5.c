@@ -26,7 +26,7 @@ int josephus(int Count, int Coff){
             prev = current;
             current = current->next;
         }
-        prev->next = current->next   //prev和prev->next间隔了Coff-1个节点
+        prev->next = current->next;   //prev和prev->next间隔了Coff-1个节点
     }
 
     current->next = prev->next;

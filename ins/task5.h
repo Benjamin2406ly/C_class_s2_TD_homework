@@ -25,9 +25,9 @@ struct Node*current;
 **构造Josephus问题主函数
 **Count表示人数，Coff(count off)报数的数
 */
-int josephus(){};
+// int josephus(){int Count,int Coff};
 
 /*
 **创建循环链表
 */
-void circu_linked_list();
+// void circu_linked_list(int Count);
