@@ -14,17 +14,20 @@ typedef struct Node {
 **构造一个结构体实例_Node
 **用结构体字面量初始化其成员变量
 */
-Node* _Node(int data) {
+struct Node* _Node(int data) {
     return &(Node){.data = data, .next = NULL};
 }
+
+struct Node*head;
+struct Node*current;
 
 /*
 **构造Josephus问题主函数
 **Count表示人数，Coff(count off)报数的数
 */
-int josephus(int Count, int Coff);
+int josephus(){};
 
 /*
 **创建循环链表
 */
-void circu_linked_list(int Count)
+void circu_linked_list();
