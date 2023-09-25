@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 int main(){
-    printf("%d",josephus_std(5));
+    printf("%d",josephus_std(20));
     // fflush(stdout);
     return 0;
 }
