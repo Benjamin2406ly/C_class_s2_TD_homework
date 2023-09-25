@@ -12,22 +12,31 @@ n=10
 ![n=10](/assert/img/10.png "10")   
 n=11
 ![n=11](/assert/img/11.png "11")     
-
+n=12
 ![n=12](/assert/img/12.png "12")      
-
+n=13
 ![n=13](/assert/img/13.png "13")    
-
+n=14
 ![n=14](/assert/img/14.png "14")     
-
+n=15
 ![n=15](/assert/img/15.png "15")      
-
+n=16
 ![n=16](/assert/img/16.png "16")      
-
+n=17
 ![n=17](/assert/img/17.png "17")    
-
+n=18
 ![n=18](/assert/img/18.png "18")      
-
+n=19
 ![n=19](/assert/img/19.png "19")      
-
+n=20
 ![n=20](/assert/img/20.png "20")        
 
+  标准方法给出的流程图，引用了**倒推**的思路：
+
+>### 假设最后的赢家pre_winner为0
+>
+> - 那么上一轮人数count=2，由于最后pre_winner必须要报数1，上一轮也要报数1，两个报数1之间有2个间隔，那么根据人数count，我们得知pre_winner想要一直报数1，那么上一轮pre_winer为(0+count)%2,也就是(0+2)%2.
+> - 由此类推，每一轮pre_winner的值为(下一轮值+这一轮count)%2.
+> - 那么最初pre_winner的值为((...(((0+2)%2+2)%3+2)...)%(n-1)+2)%n
+>
+>这就是pre_winner原本在圈子里的值.
