@@ -1,5 +1,3 @@
-#ifndef linkedlist
-
 #include <C:\vscode\C_class_s2_TD_homework\ins\task5.h>
 #include <stdlib.h>
 
@@ -54,11 +52,9 @@ int josephus_linkedlist(int Count, int Coff){
     free(current);                   //释放内存，结束链表
     return final;    
 }
-#endif
 
-
-#ifndef stdmethod
-#define stdmethod
+#ifndef STDMETHOD
+#define STDMETHOD
 
 #include <stdio.h>
 
