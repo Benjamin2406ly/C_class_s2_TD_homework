@@ -8,3 +8,26 @@
   若老师需要debug代码，请将launch.json中的program和miDebuggerPath修改成您电脑中可执行文件绝对地址和gbd绝对地址，或者直接使用相对地址。如果编译代码时出错，注意检查电脑cmake版本。我在CMakeLists.txt中限制了Cmake版本至少高于3.5.0。
   
 ## 实验报告    
+n=10
+![n=10](/assert/img/10.png "10")   
+n=11
+![n=11](/assert/img/11.png "11")     
+
+![n=12](/assert/img/12.png "12")      
+
+![n=13](/assert/img/13.png "13")    
+
+![n=14](/assert/img/14.png "14")     
+
+![n=15](/assert/img/15.png "15")      
+
+![n=16](/assert/img/16.png "16")      
+
+![n=17](/assert/img/17.png "17")    
+
+![n=18](/assert/img/18.png "18")      
+
+![n=19](/assert/img/19.png "19")      
+
+![n=20](/assert/img/20.png "20")        
+
