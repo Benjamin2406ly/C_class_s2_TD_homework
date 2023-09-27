@@ -12,4 +12,6 @@ typedef struct Node {
     struct Node* next;
 } Node;
 
+int josephus_linkedlist(int Count, int Coff);
+
 #endif

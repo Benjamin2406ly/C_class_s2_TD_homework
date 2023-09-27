@@ -62,7 +62,7 @@ CMAKE_BINARY_DIR = C:\vscode\C_class_s2_TD_homework\build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/task5.dir/all
+all: CMakeFiles/task5.exe.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -98,7 +98,7 @@ clean: CMakeFiles/ContinuousTest.dir/clean
 clean: CMakeFiles/ContinuousCoverage.dir/clean
 clean: CMakeFiles/ContinuousMemCheck.dir/clean
 clean: CMakeFiles/ContinuousSubmit.dir/clean
-clean: CMakeFiles/task5.dir/clean
+clean: CMakeFiles/task5.exe.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -830,30 +830,30 @@ CMakeFiles/ContinuousSubmit.dir/clean:
 .PHONY : CMakeFiles/ContinuousSubmit.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/task5.dir
+# Target rules for target CMakeFiles/task5.exe.dir
 
 # All Build rule for target.
-CMakeFiles/task5.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\task5.dir\build.make CMakeFiles/task5.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\task5.dir\build.make CMakeFiles/task5.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\vscode\C_class_s2_TD_homework\build\CMakeFiles --progress-num=1,2 "Built target task5"
-.PHONY : CMakeFiles/task5.dir/all
+CMakeFiles/task5.exe.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\task5.exe.dir\build.make CMakeFiles/task5.exe.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\task5.exe.dir\build.make CMakeFiles/task5.exe.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\vscode\C_class_s2_TD_homework\build\CMakeFiles --progress-num=1,2,3 "Built target task5.exe"
+.PHONY : CMakeFiles/task5.exe.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/task5.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\vscode\C_class_s2_TD_homework\build\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/task5.dir/all
+CMakeFiles/task5.exe.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\vscode\C_class_s2_TD_homework\build\CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/task5.exe.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\vscode\C_class_s2_TD_homework\build\CMakeFiles 0
-.PHONY : CMakeFiles/task5.dir/rule
+.PHONY : CMakeFiles/task5.exe.dir/rule
 
 # Convenience name for target.
-task5: CMakeFiles/task5.dir/rule
-.PHONY : task5
+task5.exe: CMakeFiles/task5.exe.dir/rule
+.PHONY : task5.exe
 
 # clean rule for target.
-CMakeFiles/task5.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\task5.dir\build.make CMakeFiles/task5.dir/clean
-.PHONY : CMakeFiles/task5.dir/clean
+CMakeFiles/task5.exe.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\task5.exe.dir\build.make CMakeFiles/task5.exe.dir/clean
+.PHONY : CMakeFiles/task5.exe.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

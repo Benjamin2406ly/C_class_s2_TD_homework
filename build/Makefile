@@ -510,24 +510,24 @@ ContinuousSubmit/fast:
 .PHONY : ContinuousSubmit/fast
 
 #=============================================================================
-# Target rules for targets named task5
+# Target rules for targets named task5.exe
 
 # Build rule for target.
-task5: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 task5
-.PHONY : task5
+task5.exe: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 task5.exe
+.PHONY : task5.exe
 
 # fast build rule for target.
-task5/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\task5.dir\build.make CMakeFiles/task5.dir/build
-.PHONY : task5/fast
+task5.exe/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\task5.exe.dir\build.make CMakeFiles/task5.exe.dir/build
+.PHONY : task5.exe/fast
 
 src/main.obj: src/main.c.obj
 .PHONY : src/main.obj
 
 # target to build an object file
 src/main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\task5.dir\build.make CMakeFiles/task5.dir/src/main.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\task5.exe.dir\build.make CMakeFiles/task5.exe.dir/src/main.c.obj
 .PHONY : src/main.c.obj
 
 src/main.i: src/main.c.i
@@ -535,7 +535,7 @@ src/main.i: src/main.c.i
 
 # target to preprocess a source file
 src/main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\task5.dir\build.make CMakeFiles/task5.dir/src/main.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\task5.exe.dir\build.make CMakeFiles/task5.exe.dir/src/main.c.i
 .PHONY : src/main.c.i
 
 src/main.s: src/main.c.s
@@ -543,8 +543,32 @@ src/main.s: src/main.c.s
 
 # target to generate assembly for a file
 src/main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\task5.dir\build.make CMakeFiles/task5.dir/src/main.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\task5.exe.dir\build.make CMakeFiles/task5.exe.dir/src/main.c.s
 .PHONY : src/main.c.s
+
+src/task5.obj: src/task5.c.obj
+.PHONY : src/task5.obj
+
+# target to build an object file
+src/task5.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\task5.exe.dir\build.make CMakeFiles/task5.exe.dir/src/task5.c.obj
+.PHONY : src/task5.c.obj
+
+src/task5.i: src/task5.c.i
+.PHONY : src/task5.i
+
+# target to preprocess a source file
+src/task5.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\task5.exe.dir\build.make CMakeFiles/task5.exe.dir/src/task5.c.i
+.PHONY : src/task5.c.i
+
+src/task5.s: src/task5.c.s
+.PHONY : src/task5.s
+
+# target to generate assembly for a file
+src/task5.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\task5.exe.dir\build.make CMakeFiles/task5.exe.dir/src/task5.c.s
+.PHONY : src/task5.c.s
 
 # Help Target
 help:
@@ -585,10 +609,13 @@ help:
 	@echo ... NightlySubmit
 	@echo ... NightlyTest
 	@echo ... NightlyUpdate
-	@echo ... task5
+	@echo ... task5.exe
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
+	@echo ... src/task5.obj
+	@echo ... src/task5.i
+	@echo ... src/task5.s
 .PHONY : help
 
 
