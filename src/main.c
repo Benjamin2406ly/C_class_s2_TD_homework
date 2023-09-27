@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 int main(){
-    printf("%d",josephus_linkedlist(10,2));
+    printf("%d",josephus_std(10));
     // fflush(stdout);
     return 0;
 }

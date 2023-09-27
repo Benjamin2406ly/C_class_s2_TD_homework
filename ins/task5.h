@@ -13,5 +13,6 @@ typedef struct Node {
 } Node;
 
 int josephus_linkedlist(int Count, int Coff);
+int josephus_std(int n);
 
 #endif
